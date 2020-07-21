@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'httparty'
 
 class Tastee
-    attr_reader :tastee_locations
+    attr_reader :tastee_locations, :url
 
   def initialize
     @url = 'https://www.tfc.com.ng/locations'
