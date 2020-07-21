@@ -1,6 +1,6 @@
 # web-scrapper-Ruby
 
-This project implement a basic and simple web scrapping using the Ruby Language. The project scrapes the offical listing of Tastee Resturant addresses along side their respedtive opening and closing time, combining them into a CSV file.
+This project implement a basic and simple web scrapping using the Ruby Language. The project scrapes the offical listing of Tastee Resturant addresses along side their respective delivery schedule, combining them into a CSV file.
 
 ## Built With
 
@@ -43,6 +43,10 @@ Run the following command:
 ### Usage
 
 - Run `ruby bin/main.rb`.
+- Navigate to the project directory and inside the `csv_output` folder
+- Inside the `csv_output` folder, there will be a file called `Tastee.csv`
+- Enjoy your curated data!
+
 
 ### Run tests
 

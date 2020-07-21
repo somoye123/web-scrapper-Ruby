@@ -3,10 +3,9 @@
 require 'csv'
 require_relative '../lib/tastee.rb'
 
+new_csv = CSV.open('csv_output/Tastee.csv', 'a+')
+new_csv << %w[area address delivery_schedule]
+
 tastee = Tastee.new
 
-tastee.scrape
-
-CSV.open('tastee.csv', 'w') do |csv|
-  csv << tastee.tastee_locations
-end
+tastee.scrape(new_csv)
